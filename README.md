@@ -19,8 +19,8 @@ Run :
 
 cd Inbox-killer
 
-python Inbox-killer.py
+python Inbox killer.py
 
 Single Code For Termux :
 
-cd $HOME && cd Inbox-killer && python Inbox-killer.py
+cd $HOME && cd Inbox-killer && python Inbox killer.py
