@@ -97,7 +97,7 @@ time.sleep(0.6)
 
 if(version.read() == mainversion.text):
 
-	print(cyan+"You are using the latest version of BD SMS")
+	print(cyan+"You are using the latest version of Inbox Killer")
 
 else:
 
@@ -107,7 +107,7 @@ else:
 
 	print(blue+"\t\tUpdating Tool...")
 
-	os.system("cd .. && rm -rf SMS && git clone https://github.com/N4H1D/SMS > /dev/null 2>&1 && cd SMS && python SMS.py")
+	os.system("cd .. && rm -rf Inbox-killer && git clone https://github.com/Mizang88/Inbox-killer > /dev/null 2>&1 && cd Inbox-killer && python Inbox killer.py")
 
 os.system("clear")	
 
