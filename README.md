@@ -12,3 +12,5 @@ pkg install git -y
 pkg install python -y
 
 pip install requests
+
+https://github.com/Mizang88/Inbox-killer.git
