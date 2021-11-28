@@ -16,6 +16,7 @@ pip install requests
 git clone https://github.com/Mizang88/Inbox-killer.git
 
 Run :
+
 cd Inbox-killer
 
 python Inbox-killer.py
