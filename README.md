@@ -14,3 +14,12 @@ pkg install python -y
 pip install requests
 
 git clone https://github.com/Mizang88/Inbox-killer.git
+
+Run :
+cd Inbox-killer
+
+python Inbox-killer.py
+
+Single Code For Termux :
+
+cd $HOME && cd Inbox-killer && python Inbox-killer.py
