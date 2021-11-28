@@ -13,4 +13,4 @@ pkg install python -y
 
 pip install requests
 
-https://github.com/Mizang88/Inbox-killer.git
+git clone https://github.com/Mizang88/Inbox-killer.git
