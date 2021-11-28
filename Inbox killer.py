@@ -52,13 +52,11 @@ logo=(green+"""__  __ _                             ____       _
 | |\/| | |_  / _` | '_ \| | | | '__| | |_) / _` | '_ \| '_ ` _ \ / _` | '_ \
 | |  | | |/ / (_| | | | | |_| | |    |  _ < (_| | | | | | | | | | (_| | | | |
 |_|  |_|_/___\__,_|_| |_|\__,_|_|    |_| \_\__,_|_| |_|_| |_| |_|\__,_|_| |_|
-
  _   _ _           _
 | \ | (_)_ __ ___ | |__
 |  \| | | '__/ _ \| '_ \
 | |\  | | | | (_) | |_) |
 |_| \_|_|_|  \___/|_.__/
-
 """)
  
 
@@ -91,7 +89,7 @@ print(green+"\t\t[•]Checking For Updates...")
 
 version = open(".version.txt", "r")
 
-mainversion = requests.get("")
+mainversion = requests.get("https://raw.githubusercontent.com/Mizang88/Inbox-killer/main/.version.txt")
 
 time.sleep(0.6)
 
